@@ -106,6 +106,14 @@ Primary use:
   text-transform: uppercase;
   letter-spacing: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .l1-txt3 {
+    font-size:20px!important;
+  }
+  .l1-txt1 {
+    font-size:15px!important;
+  }
+}
 
 .l1-txt1 {
   font-family: Poppins-Thin;

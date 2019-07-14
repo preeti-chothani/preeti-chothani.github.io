@@ -2495,6 +2495,7 @@ h6 {
 .wel_item {
   border: 1px solid #eeeeee;
   padding: 20px 20px;
+  margin-bottom: 10px;
   border-radius: 5px; }
   .wel_item i {
     font-size: 24px;
@@ -2509,7 +2510,7 @@ h6 {
     margin-bottom: 5px;
     margin-top: 10px; }
   .wel_item p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Roboto", sans-serif;
     color: #777777;
     margin-bottom: 0px; }
@@ -3019,7 +3020,20 @@ html{
   color: #fff;
     font-family: "Zapf Dingbats", sans-serif;
 }
+.owl-carousel .owl-item img {
+  display: block;
+  height: 100%;
+  width: 100%; }
 
+.personal_text h7{
+  font-size: 8px;
+  font-family: rob;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  font-weight: normal;
+  margin-bottom: 12px;
+  color: white;
+}
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */

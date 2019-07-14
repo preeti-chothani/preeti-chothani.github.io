@@ -24,6 +24,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.lnr-work{
+	content: "\e499";
+}
 .lnr-home:before {
 	content: "\e800";
 }

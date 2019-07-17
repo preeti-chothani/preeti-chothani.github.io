@@ -94,7 +94,7 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background: #000;
+		background: #766dff;
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -378,7 +378,9 @@
 	}
 	.tabs_inner .nav.nav-tabs li a {
 		line-height: 42px;
-		padding: 0px 18px;
+		padding: 0px 4px;
+		margin: 14px;
+		min-width: 140px;
 	}
 	.gallery_f_inner{
 		max-width: 340px;

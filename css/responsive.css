@@ -254,7 +254,7 @@
 	/* End Blog Page Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content h3 {
-		font-size: 45px;
+		font-size: 33px;
 		line-height: 55px;
 	}
 	.home_banner_area .banner_inner .banner_content p br {
@@ -380,7 +380,7 @@
 		line-height: 42px;
 		padding: 0px 4px;
 		margin: 14px;
-		min-width: 140px;
+		min-width: 132px;
 	}
 	.gallery_f_inner{
 		max-width: 340px;
@@ -404,7 +404,7 @@
 	/* Home Banner Area css
 	============================================================================================ */
     .home_banner_area .banner_inner .banner_content {
-		padding: 30px 15px;
+		padding: 30px 0;
 		margin-top: 0px;
 	}
 	.banner_content .white_btn {

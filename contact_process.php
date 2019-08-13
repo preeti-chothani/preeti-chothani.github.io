@@ -1,6 +1,6 @@
 <?php
 
-    $to = "shreedattalawconsultancy@gmail.com";
+    $recipient = "shreedattalawconsultancy@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -32,6 +32,13 @@
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-    $send = mail($to, $subject, $body, $headers);
+    if (mail($recipient, $subject, $body, $headers))
+    {
+        echo "Message accepted";
+    }
+    else
+    {
+        echo "Error: Message not accepted";
+    }
 
 ?>

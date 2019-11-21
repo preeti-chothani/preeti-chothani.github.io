@@ -391,6 +391,12 @@ button:focus {
 .home_banner_area .banner_inner .banner_content .media .d-flex {
   padding-right: 125px;
 }
+
+.home_banner_area .banner_inner .banner_content .media .d-flex img {
+  width: 350px;
+  height: 500px;
+}
+
 .home_banner_area .banner_inner .banner_content .media .media-body {
   vertical-align: middle;
   align-self: center;
@@ -3726,6 +3732,11 @@ html {
   .main_menu .navbar a {
     width: 86%;
   }
+}
+
+.img1 img{
+  width: 500px;
+  height: 500px;
 }
 /* End Footer Area css
 ============================================================================================ */
